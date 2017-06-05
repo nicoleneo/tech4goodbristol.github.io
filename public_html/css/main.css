@@ -294,7 +294,7 @@ footer h2{
     margin-bottom: 1rem;
 }
 
-.sponsors div{ background: url('/img/sponsors.png') no-repeat top left;  } 
+.sponsors div{ background: url('../img/sponsors.png') no-repeat top left;  } 
 .sponsors div.ketl { background-position: 0 0; width: 67px; height: 74px; } 
 .sponsors div.bristol-energy { background-position: -77px 0; width: 107px; height: 55px; } 
 .sponsors div.tt { background-position: -194px 0; width: 51px; height: 49px; } 
@@ -322,23 +322,23 @@ footer h2{
 }
 
 .twitter{
-    background-image: url(/img/social/twitter.png);
-    background-image: url(/img/social/twitter.svg), none;
+    background-image: url(../img/social/twitter.png);
+    background-image: url(../img/social/twitter.svg), none;
     background-size: 1.2rem;
     background-repeat: no-repeat;
     background-position: center left;
     padding-left: 1.75rem;
 }
 .meetup{
-    background-image: url(/img/social/meetup.png);
-    background-image: url(/img/social/meetup.svg), none;
+    background-image: url(../img/social/meetup.png);
+    background-image: url(../img/social/meetup.svg), none;
     background-size: 1.5rem;
     background-repeat: no-repeat;
     background-position: center left;
     padding-left: 2rem;    
 }
 
-.sprite { background: url('/img/social.png') no-repeat top left; width: 21px;  } 
+.sprite { background: url('../img/social.png') no-repeat top left; width: 21px;  } 
 .sprite.meetup { background-position: 0 0; height: 20px; } 
 .sprite.twitter { background-position: 0 -30px; height: 17px; }
 
@@ -371,7 +371,7 @@ MODULES
 
 .hero-bg{
     height: 380px;
-    background-image: url(/img/homepage-hero-small.jpg);
+    background-image: url(../img/homepage-hero-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -381,7 +381,7 @@ MODULES
 
 }@media(min-width: 1000px){
     .hero-bg{
-        background-image: url(/img/homepage-hero-large.jpg);
+        background-image: url(../img/homepage-hero-large.jpg);
     }
 }
 .hero-overlay{
@@ -475,7 +475,7 @@ placeholder
 }
 
 .events li{
-    background: url(/img/calendar.svg) center 1rem no-repeat;
+    background: url(../img/calendar.svg) center 1rem no-repeat;
     text-align: center;
     background-color: #F6F6F6;
     border: 1px solid #222222;
