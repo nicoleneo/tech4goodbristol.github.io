@@ -39,7 +39,7 @@ permalink: pretty
 collections:
     shout_outs:
       output: true
-      permalink: /shout-out/:path
+      permalink: /shout-outs/:path
     posts:
       output: true
       permalink: /:year-:month-:day/:title
