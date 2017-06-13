@@ -1,9 +1,9 @@
 # Site Settings
 title: 'Tech4Good Bristol'
 description: 'An Open-Source Bootstrap 3 Jekyll Theme by Scotch'
-url: 'http://localhost:4000' # the base hostname & protocol for your site
+url: 'http://tech4goodbristol.gihub.io' # the base hostname & protocol for your site
 footer_text: 'This text is footer text. Footer text goes here.'
 
 # Admin Settings
-admin_name: 'Nicholas Cerminara'
-admin_email: 'nick@scotch.io'
+admin_name: 'Nicole Neo'
+admin_email: 'nicole.neo@newicon.net'
