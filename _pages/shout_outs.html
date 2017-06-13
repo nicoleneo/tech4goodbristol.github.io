@@ -1,0 +1,30 @@
+---
+layout: page
+title: Community Shout-outs
+---
+<div class="shout-outs">
+{% for shout_out in site.shout_outs %}
+  <div class="row shout-out">
+    <div class="row">
+        <div class="shout-out-left-col col-xs-3">Organisation</div>
+        <div class="shout-out-right-col col-xs-9"><a href="{{ shout_out.url }}">{{ shout_out.title }}</a></div>
+    </div>
+    <div class="row">
+        <div class="shout-out-left-col col-xs-3">Main Contact</div>
+        <div class="shout-out-right-col col-xs-9">{{ shout_out.contact_name }}</div>
+    </div>
+    <div class="row">
+        <div class="shout-out-left-col col-xs-3">Contact Details</div>
+        <div class="shout-out-right-col col-xs-9">{{ shout_out.contact_details }}</div>
+    </div>
+    <div class="row">
+        <div class="shout-out-left-col col-xs-3">Description</div>
+        <div class="shout-out-right-col col-xs-9">{{ shout_out.content }}</div>
+    </div>
+    <div class="row">
+        <div class="shout-out-left-col col-xs-3">Action Requested</div>
+        <div class="shout-out-right-col col-xs-9">{{ shout_out.action_requested }}</div>
+    </div>
+  </div>
+{% endfor %}
+</div>
