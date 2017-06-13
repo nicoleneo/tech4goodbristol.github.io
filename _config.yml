@@ -50,5 +50,6 @@ defaults:
       type: shout_outs
     values:
       layout: shout-out
+      date: "2017-03-23"
 
 include: ['_pages']

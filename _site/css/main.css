@@ -656,7 +656,7 @@ placeholder
     display: block;
 }
 
-.shoutouts li{
+.shoutouts li.shoutouts-row{
     background-color: #F6F6F6;
     border: 1px solid #D6D6D6;
     border-radius: 0.2rem;
@@ -963,46 +963,3 @@ divs inside columns
     *zoom: 1;
 }
 
-.shout-outs {
-
-}
-
-.shout-out {
-    margin-bottom: 30px;
-    border: 1px solid #D6D6D6;
-
-}
-
-.shout-out .row {
-    display: table;
-}
-
-.shout-out-left-col {
-    background: #13C980;
-    color: #F9F9F9;
-    font-weight: bold;
-    font-size: 0.9em;
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-}
-
-.shout-out-left-col .title {
-    display: block;
-    padding: 15px;
-    float: right;
-}
-
-.shout-out-right-col {
-    background: #F9F9F9;
-    font-size: 0.9em !important;
-    float: none;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.shout-out-right-col .description{
-    display: block;
-    padding: 0 10px;
-
-}
