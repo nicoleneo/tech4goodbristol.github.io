@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% if page.title %}{{ page.title }} ♥ {{ site.data.global.title }}{% elsif post.title %}{{ post.title }} ♥ {{ site.data.global.title }}{% else %}{{ site.data.global.title }} ♥ {{ site.data.global.description }}{% endif %}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="{{ site.github.url }}/css/normalize.min.css">
+        <link rel="stylesheet" href="{{ site.github.url }}/css/bootstrap.css">
+        <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
+
+        <link href="{{ site.github.url }}/img/favicon.ico" rel="shortcut icon" />
+
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Nunito+Sans" rel="stylesheet"> 
+    </head>
+    <body>
+        <!-- a handy skip link for keyboard users -->
+        <a href="#main" class="skip-link">skip to main content</a>
+
+        <header class="page-header">
+
+            <nav aria-label="site">
+            
+                <div class="left">
+                    <a href="index.html"><img src="{{ site.github.url }}/img/Tech4Good-Bristol-logo.jpg" alt="Tech4Good Bristol Logo"></a>
+                </div>
+
+                <div class="right">
+                    <ul class="menu">
+                    {% for item in site.data.nav.main %} 
+                        {% if page.url == item.url %}
+                        <li class="active">
+                        {% else %}
+                        <li>
+                        {% endif %}
+                            <a href="{{item.url}}" class="active">{{ item.text}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </nav>
+        </header>

@@ -1,0 +1,6 @@
+main:
+    - { url: '/', text: 'Home' }
+    - { url: '/about/', text: 'About' }
+    - { url: '/get-involved/', text: 'Get Involved' }    
+    - { url: '/shout-outs/', text: 'Shout outs' }
+    - { url: '/blog/', text: 'Blog' }
