@@ -1,0 +1,25 @@
+---
+layout: default
+title: Blog
+---
+
+
+            <ul class="articles-list">
+            {% for post in site.posts %}
+                <li>
+                {% if post.categories contains "guest" %}
+                <span class="ui blue ribbon label">Guest Post</span>
+                {% endif %}
+                    <a class="post-title" href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
+                    <span class="post-meta">
+                        <span class="author">{{ post.author }}</span>
+                        <time datetime="{{ post.date | date: '%m/%d/%Y/%m/%d' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                    </span>
+
+                    {{ post.excerpt  | markdownify }}
+
+                    <p><a class="read-more-link" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>  
+                </li>
+                {% endfor %}
+
+            </ul>

@@ -1,0 +1,49 @@
+---
+layout: page
+title: Community Shout Outs
+---
+            <div class="text-container center">
+                <p>Shout outs are a way of letting the meetup group know about events, projects, other meetup groups, tools, and anything you think will be of interest.</p>
+            </div>
+
+            <ul class="shoutouts">
+            {% for shout_out in site.shout_outs %}
+                <li class="shoutouts-row">
+                    <div class="shoutouts-org">
+                        <span class="info">
+                            <p><a href="{{ shout_out.url | prepend: site.github.url }}">{{ shout_out.title }}</a></p>
+                        </span>
+                    </div>
+
+                    <div class="shoutouts-contact">
+                        <span class="info">
+                            <p>{{ shout_out.contact_name }}</p>
+                        </span>
+                    </div>
+
+                    <div class="shoutouts-details">
+                        <span class="info">
+                            {{ shout_out.contact_details | markdownify }}
+                        </span>
+                    </div>
+
+                    <div class="shoutouts-date">
+                        <span class="info">
+                            <p><time datetime="{{ shout_out.date | date_to_xmlschema }}">{{ shout_out.date | date: "%b %-d, %Y" }}</time></p>
+                        </span>
+                    </div>
+
+                    <div class="shoutouts-description">
+                        <span class="info">
+                            {{ shout_out.content | markdownify }}
+                        </span>
+                    </div>
+
+                    <div class="shoutouts-action">
+                        <span class="info">
+                            {{ shout_out.action_requested | markdownify }}
+                        </span>
+                    </div>                    
+                </li>
+                {% endfor %}
+            </ul>

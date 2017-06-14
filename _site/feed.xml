@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Jun 2017 23:51:06 +0000</pubDate>
+    <lastBuildDate>Tue, 13 Jun 2017 23:51:06 +0000</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>This is a Guest Blog Post</title>
+        <description>&lt;p&gt;Blog excerpt. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jun 2017 21:20:45 +0000</pubDate>
+        <link>http://0.0.0.0:4000/2017-06-13/this-is-a-guest-blog-post</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017-06-13/this-is-a-guest-blog-post</guid>
+        
+        
+        <category>guest</category>
+        
+      </item>
+    
+      <item>
+        <title>Blog Post Title Goes Here</title>
+        <description>&lt;p&gt;Blog excerpt. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
+
+&lt;ul class=&quot;post-links&quot;&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;View meetup presentation&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;shoutouts.html&quot;&gt;View meetup shout outs&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;View raw data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 24 Jan 2017 21:20:45 +0000</pubDate>
+        <link>http://0.0.0.0:4000/2017-01-24/blog-post-title-goes-here</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017-01-24/blog-post-title-goes-here</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

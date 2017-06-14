@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>iconmonstr-twitter-1-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.889775815">
+        <g transform="translate(-413.000000, -1492.000000)" id="Footer" fill-rule="nonzero" fill="#FFFFFF">
+            <g transform="translate(1.000000, 1459.000000)">
+                <g id="Social" transform="translate(279.000000, 31.000000)">
+                    <g id="Twitter">
+                        <g id="iconmonstr-twitter-1-1" transform="translate(133.000000, 2.000000)">
+                            <path d="M17.9962,2.8322 C18.86065,2.31455 19.5245,1.4943 19.83645,0.5168 C19.0281,0.9962 18.1322,1.3447 17.1785,1.53255 C16.41605,0.7191 15.3272,0.2108 14.1236,0.2108 C11.42145,0.2108 9.43585,2.7319 10.04615,5.34905 C6.5688,5.1748 3.485,3.5088 1.42035,0.97665 C0.32385,2.8577 0.8517,5.31845 2.7149,6.56455 C2.0298,6.54245 1.3838,6.3546 0.82025,6.04095 C0.77435,7.9798 2.1641,9.7937 4.1769,10.19745 C3.58785,10.35725 2.9427,10.39465 2.2865,10.26885 C2.8186,11.93145 4.3639,13.141 6.1965,13.175 C4.437,14.55455 2.2202,15.1708 -1.77635684e-15,14.909 C1.85215,16.09645 4.0528,16.7892 6.4158,16.7892 C14.1865,16.7892 18.57675,10.22635 18.31155,4.3401 C19.12925,3.74935 19.839,3.0124 20.4,2.17345 C19.64945,2.50665 18.8428,2.73105 17.9962,2.8322 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
